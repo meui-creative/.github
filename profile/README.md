@@ -1,183 +1,114 @@
-# MEUI | Kreativní digitální agentura 👋
+<!-- profile/README.md -->
+<!-- Fáze 0: funguje hned po commitu, nepotřebuje žádný backend.          -->
+<!-- Všechny obrázky leží v tomhle repu v /assets a načítají se přes raw. -->
+<!-- Relativní cesty v profile README nejsou spolehlivé, proto absolutní. -->
 
-<div align="center">
-  <img src="https://meui.cz/logo/meui-creative.svg" alt="MEUI Logo" width="250" />
-  <p><em>Vytváříme budoucnost digitálního designu</em></p>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/meui-creative/.github/main/assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/meui-creative/.github/main/assets/hero-light.svg">
+  <img alt="Meui Creative - kreativní studio z Liberce: development, design, produkce, marketing" src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/hero-light.svg" width="100%">
+</picture>
 
-<div align="center">
-  
-  [![Website](https://img.shields.io/badge/website-meui.cz-blue?style=for-the-badge)](https://meui.cz)
-  [![Email](https://img.shields.io/badge/email-info@meui.cz-red?style=for-the-badge)](mailto:info@meui.cz)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/meui-creative)
-  
-</div>
+Kreativní studio z Liberce. Stavíme weby, e-shopy a webové aplikace včetně designu, produkce a marketingu okolo nich. Čtyři řemesla pod jednou střechou, takže klient neřeší, kdo si co s kým předá.
 
-## 🚀 O nás
+<!-- Klikací páska řemesel. Bez <table> wrapperu, jinak GitHub nakreslí   -->
+<!-- rámeček. Pevné pixely místo procent, protože bez kontejneru by       -->
+<!-- procenta počítala z plné šířky. Mezi <a> nesmí být newline ani       -->
+<!-- mezera, jinak vzniknou díry.                                        -->
 
-Jsme full-service digitální agentura sídlící v Liberci, která od roku 2016 pomáhá firmám s digitální transformací. Náš tým kreativců, vývojářů a stratégů se specializuje na tvorbu komplexních digitálních řešení s důrazem na moderní technologie a měřitelné výsledky.
+<a href="#development"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/tiles/development.svg" width="218" align="top" alt="Development"></a><a href="#design"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/tiles/design.svg" width="218" align="top" alt="Design"></a><a href="#produkce"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/tiles/produkce.svg" width="218" align="top" alt="Produkce"></a><a href="#marketing"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/tiles/marketing.svg" width="218" align="top" alt="Marketing"></a>
 
-### Naše hodnoty
+## Klientské práce
 
-- **Inovace v DNA** - Neustále sledujeme nové trendy a technologie
-- **Vášeň pro řemeslo** - Milujeme to, co děláme, a to se odráží v kvalitě naší práce
-- **Orientace na výsledky** - Každé naše řešení přináší klientům měřitelnou hodnotu
-- **Týmová spolupráce** - Různé pohledy, jeden cíl - úspěch našich klientů
+<a href="https://vbezovemudoli.cz"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/cards/v-bezovem-udoli.png" width="292" align="top" alt="V Bezovém Údolí - boutique hotel a restaurace"></a><a href="https://events.3mag.eu"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/cards/3mag-events.png" width="292" align="top" alt="3Mag Events - přeshraniční eventová platforma"></a><a href="https://artglass.cz"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/cards/artglass.png" width="292" align="top" alt="Artglass - skleněné lustry a umění"></a><a href="https://masher-store.cz"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/cards/masher.png" width="292" align="top" alt="Masher - e-shop s proteinovými kašemi"></a><a href="https://escapeboom.cz"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/cards/escape-boom.png" width="292" align="top" alt="Escape Boom - rezervační platforma pro únikové hry"></a>
 
-## 💻 Naše služby
+## Vlastní produkty
 
-### Web Development
+<a href="https://meui-creative.com/projekty/peak"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/cards/peak.png" width="292" align="top" alt="Peak - databáze látek a aktivit"></a><a href="https://meui-creative.com/projekty/bombotalk"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/cards/bombotalk.png" width="292" align="top" alt="Bombotalk - AI satirický magazín"></a><a href="https://meui-creative.com/projekty/cue"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/cards/cue.png" width="292" align="top" alt="Cue - nástroj pro filmovou přípravu"></a><a href="https://meui-creative.com/projekty/fixuj-a-mixuj"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/cards/fixuj-a-mixuj.png" width="292" align="top" alt="Fixuj a Mixuj - aplikace"></a><a href="https://meui-creative.com/projekty/hodinkyprovas"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/cards/hodinky-pro-vas.png" width="292" align="top" alt="Hodinky Pro Vás - konfigurátor hodinek"></a><a href="https://meui-creative.com/projekty/stehuj-se"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/cards/stehuj-se.png" width="292" align="top" alt="Stěhuj se - služba"></a>
 
-```typescript
-// Ukázka našeho přístupu k vývoji
-const MeuiProject = {
-  tech: ["Next.js", "React", "TypeScript", "Node.js"],
-  performance: {
-    LCP: "<1.5s",
-    uptime: "99.9%",
-    bestPractices: "100%"
-  },
-  userFocus: true,
-  security: "Enterprise-grade",
-  scalable: true
-};
+Kompletní portfolio na [meui-creative.com/projekty](https://meui-creative.com/projekty).
+
+## Showreel
+
+<!-- Video nelze hotlinkovat z meui-creative.com. GitHub renderuje <video> -->
+<!-- jen z domény githubusercontent.com. Soubor se nahraje drag and dropem  -->
+<!-- do editoru README nebo do komentáře u issue, čímž vznikne URL          -->
+<!-- github.com/user-attachments/assets/<uuid>. Zdroje jsou na webu:        -->
+<!--   meui-creative.com/videos/references/artglass.mp4      (3,9 MB)       -->
+<!--   meui-creative.com/videos/references/bezove-udoli.mp4                 -->
+<!--   meui-creative.com/videos/references/3mag-events.mp4                  -->
+<!--   meui-creative.com/videos/references/masher.mp4                       -->
+<!--   meui-creative.com/videos/references/escapeboom.mp4                   -->
+<!-- Atribut poster GitHub strippne, první frame musí být rovnou ten pravý. -->
+<!--
+<video src="https://github.com/user-attachments/assets/SEM-VLOZ-UUID" controls muted playsinline width="100%"></video>
+-->
+
+## Development
+
+Next.js, TypeScript, Payload CMS, Bun. PostgreSQL nebo MongoDB. Vlastní infrastruktura na Hetzneru přes Coolify, žádný vendor lock na serverless.
+
+Prezentační weby, webové aplikace, e-shopy, mobilní appky, interní systémy a napojení na to, co klient už používá.
+
+## Design
+
+Brand identita, UI a UX, digitální i tisková grafika. Design vzniká vedle vývoje, ne v samostatném vakuu, které se pak někomu hodí přes zeď.
+
+## Produkce
+
+Video, foto, postprodukce. Spoty, produktové fotky, reels, firemní a instruktážní videa.
+
+## Marketing
+
+PPC, sociální sítě, obsah, kampaně. Měříme to, co ovlivňuje tržby, ne to, co se hezky reportuje.
+
+## Kde nás najdeš
+
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Meui Creative, Liberec", "marker-color": "#43755a", "marker-size": "large" },
+      "geometry": { "type": "Point", "coordinates": [15.0543, 50.7663] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Praha", "marker-color": "#ffaaf1" },
+      "geometry": { "type": "Point", "coordinates": [14.4378, 50.0755] }
+    }
+  ]
+}
 ```
 
-- **Webové stránky** - Od jednoduchých prezentací po komplexní webová řešení s vlastní administrací
-- **Webové aplikace** - Škálovatelné systémy a aplikace, které automatizují procesy a zvyšují efektivitu
-- **E-commerce** - Kompletní řešení pro online prodej, od platformových až po vlastní řešení na míru
+## Logo ve třech rozměrech
 
-### Design
+Vyextrudovaný block logotyp. GitHub `.stl` soubory renderuje jako otáčecí 3D model, stačí ho otevřít.
 
-- **Brand Identity** - Komplexní vizuální identita značky včetně loga, barevnosti a typografie
-- **UI/UX Design** - Uživatelsky přívětivá a konverzně optimalizovaná digitální rozhraní
-- **Digital Design** - Grafické podklady pro online i offline marketingové kanály
-- **3D Design** - Fotorealistické vizualizace, modely a animace
+[assets/meui-block.stl](https://github.com/meui-creative/.github/blob/main/assets/meui-block.stl)
 
-### Produkce
+<details>
+<summary><b>Jak je tohle README udělané</b></summary>
 
-- **Video produkce** - Od reklamních spotů po firemní videa a live streaming
-- **Foto produkce** - Profesionální produktové a firemní fotografie
-- **Post-produkce** - Střih, grading a finální úpravy pro všechny typy médií
+<br>
 
-## 🧰 Technologie, které používáme
+GitHub markdown sanitizuje skoro všechno. Žádný JavaScript, CSS, `<iframe>`, `<object>`, `<embed>` ani image mapy. Obrázky jdou přes anonymizující proxy `camo.githubusercontent.com`, takže návštěvníka nerozlišíš a stav je pro všechny stejný.
 
-```mermaid
-graph TD
-    A[Frontend] --> B[React]
-    A --> C[Next.js]
-    A --> D[TypeScript]
-    A --> E[Tailwind CSS]
-    F[Backend] --> G[Node.js]
-    F --> H[Express]
-    F --> I[NestJS]
-    F --> J[PostgreSQL]
-    F --> K[MongoDB]
-    F --> L[Python]
-    F --> M[C#]
-    N[DevOps] --> O[Docker]
-    N --> P[GitHub Actions]
-    N --> Q[Vercel]
-    N --> R[AWS]
-    N --> S[Coolify]
-```
+| Prvek | Technika |
+| --- | --- |
+| Hero | Vlastní SVG s CSS animací uvnitř. Animace v SVG vloženém jako `<img>` běží, externí webfonty se ale nenačtou, takže text jede systémovým stackem nebo v outlinech. |
+| Dark a light varianta | `<picture>` s `prefers-color-scheme`. Jediný nativní prvek markdownu, který reaguje na uživatele. |
+| Klikací dlaždice | Slicing obrázku z devadesátek. Každá dlaždice je vlastní `<img>` v `<a>`, drží pohromadě přes `align="top"`. Pevné pixely, bez `<table>` wrapperu, protože ten GitHub orámuje. |
+| Mapa | Nativní ```geojson blok. GitHub renderuje geojson, topojson, mermaid a ASCII STL. |
+| 3D logo | ASCII STL vygenerované extruzí logotypu, renderované nativním prohlížečem GitHubu. |
 
-## 📊 Naše výsledky
+Zdrojové skripty jsou v `/docs`. Ber si, co se hodí.
 
-- **40+ aktivních klientů** z různých odvětví
-- **50+ úspěšných projektů** s prokazatelnými výsledky
-- **3.2x průměrné ROI** pro naše klienty
-- **95% retence klientů** - důkaz naší kvality a přístupu
-- **Působnost ve 3+ zemích**
+</details>
 
-## 🔍 Jak pracujeme
+## Kontakt
 
-Náš pracovní proces je navržen tak, aby maximalizoval efektivitu a kvalitu při zachování flexibility a prostoru pro kreativitu.
+[hi@meui.cz](mailto:hi@meui.cz) &nbsp;·&nbsp; [+420 777 235 939](tel:+420777235939) &nbsp;·&nbsp; [meui-creative.com](https://meui-creative.com) &nbsp;·&nbsp; [Instagram](https://instagram.com/meui_creative) &nbsp;·&nbsp; [Press kit](https://meui-creative.com/press)
 
-1. **Discovery & Analýza** (1-2 týdny)
-   - Důkladná analýza potřeb a cílů
-   - UX research a analýza konkurence
-   - Definice strategie a řešení
-
-2. **Design & Prototyping**
-   - UX Design (struktura a funkcionalita)
-   - UI Design (vizuální zpracování)
-   - Prototypování a testování s uživateli
-
-3. **Vývoj & Testování** (4-8 týdnů)
-   - Implementace řešení s využitím nejmodernějších technologií
-   - Průběžné testování a kontrola kvality
-   - Optimalizace výkonu a SEO
-
-4. **Launch & Podpora**
-   - Nasazení a spuštění projektu
-   - Monitoring výkonu a uživatelského chování
-   - Kontinuální vylepšování a podpora
-
-## 🏆 Reference
-
-
-### Vybrané projekty
-
-- **[PodnikGo.cz](https://podnikgo.cz)** - Startupová mapa příležitostí
-  - Nástroj pro identifikaci podnikatelských příležitostí v regionech
-  - Analýza dat pro strategická podnikatelská rozhodnutí
-  - Interaktivní vizualizace dat napříč regiony a odvětvími
-
-- **[ChirPak.cz](https://chirpak.cz)** - Chirurgie Nová Paka
-  - Moderní webová prezentace pro chirurgické oddělení
-  - Přehledný systém pro zobrazení ordinačních hodin a služeb
-  - Responzivní design optimalizovaný pro všechna zařízení
-
-- **[KolaJicin.cz](https://kolajicin.cz)** - Kola&Lyže 2Mitch
-  - Webová prezentace pro půjčovnu a servis lyží a jízdních kol
-  - Optimalizovaný web pro vysokou konverzi a dobrou viditelnost
-  - Čistý a přehledný design zaměřený na cílovou skupinu
-
-- **[HodinkyProVas.cz](https://hodinkyprovas.cz)** - E-shop s luxusními hodinkami
-  - Full-stack e-commerce řešení na míru
-  - Systém pro konfiguraci vlastních hodinek
-  - Zvýšení konverzního poměru o 45%
-  - Snížení bounce rate o 32%
-
-- **Rogue Rescue Services** - Komplexní platforma pro koordinaci záchranných služeb
-  - 12k USD generováno první týden
-  - 900+ aktivních uživatelů měsíčně
-
-
-
-
-
-## 🔗 Užitečné odkazy
-
-- 🌐 [Webové stránky](https://meui.cz)
-- 📧 [Kontakt](mailto:info@meui.cz)
-- 📱 [LinkedIn](https://www.linkedin.com/company/meui-creative)
-- 📸 [Instagram](https://www.instagram.com/meui.creative)
-
-## 🤝 Pojďme spolupracovat
-
-### Pro klienty
-
-Hledáte partnera pro svůj digitální projekt? Kontaktujte nás na [info@meui.cz](mailto:info@meui.cz) nebo navštivte naše [webové stránky](https://meui.cz) pro více informací.
-
-### Pro vývojáře a designéry
-
-**Právě čtete toto README a zajímalo by vás, jaké to je pracovat v týmu MEUI?** 
-
-Neustále rozšiřujeme náš tým o talentované jednotlivce, kteří sdílejí naši vášeň pro kvalitní digitální řešení. Aktuálně hledáme především:
-
-- **Frontend vývojáře** (React, Next.js, TypeScript)
-- **Fullstack vývojáře** (Node.js, Express, MongoDB/PostgreSQL)
-
-Pokud milujete výzvy, neustále se vzděláváte a chcete pracovat na zajímavých projektech v přátelském kolektivu, neváhejte nás kontaktovat na [info@meui.cz](mailto:info@meui.cz) s předmětem "GitHub - Chci být součástí týmu".
-
-<div align="center">
-  <h3>Pojďte s námi tvořit budoucnost digitálního designu!</h3>
-</div>
-
----
-
-<div align="center">
-  <p>© 2016-2025 MEUI Creative | All Rights Reserved</p>
-</div>
+<sub>Meui Creative &nbsp;/miː juː aɪ/ &nbsp;·&nbsp; provozuje THERMONT CZ s.r.o.</sub>
