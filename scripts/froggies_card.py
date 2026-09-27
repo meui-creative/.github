@@ -18,7 +18,10 @@ from lib.brand import BUILD
 T.FONTS["nunito"] = BUILD / "fonts/Nunito.ttf"  # OFL; the game's own face
 
 W, H = 1024, 1280
-BG = "#4b86a3"  # the pond, muted to sit with the other cards' palette
+# meui-pink (dark variant), the one brand colour no other product card uses yet.
+# The other cards sit on the dark variant of their brand colour, slightly
+# darker along the top edge and into the top corners; this copies that.
+BG = "#c567b8"
 SRC = BUILD / "froggies"
 OUT = BUILD / "stills/froggies-card.jpg"
 
@@ -63,8 +66,10 @@ def build() -> None:
     phone = uri(SRC / "mobile-home.png", width=560)
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
-<defs><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="22"/></filter></defs>
-<rect width="{W}" height="{H}" fill="{BG}"/>
+<defs><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="22"/></filter>
+<linearGradient id="bgv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000" stop-opacity=".09"/><stop offset=".3" stop-color="#000" stop-opacity="0"/></linearGradient>
+<radialGradient id="bgc" cx=".5" cy=".35" r=".75"><stop offset=".6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".07"/></radialGradient></defs>
+<rect width="{W}" height="{H}" fill="{BG}"/><rect width="{W}" height="{H}" fill="url(#bgv)"/><rect width="{W}" height="{H}" fill="url(#bgc)"/>
 {frog_icon(x0 - 12.4 * k, 232 - 52.3 * k, k)}
 <path d="{word}" fill="#fff"/>
 {panel(lobby, 250, 470, 900, 562, -8)}
