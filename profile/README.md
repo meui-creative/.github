@@ -122,23 +122,4 @@ It started in 2021 as two friends from Liberec freelancing on either side of the
   <a href="https://www.linkedin.com/company/meui-creative">LinkedIn</a>
 </p>
 
-<details>
-<summary><b>How this README is made</b></summary>
-
-<br>
-
-GitHub strips scripts, styles, iframes and classes from READMEs, so everything that moves here is an image that animates itself.
-
-| Piece | How |
-| --- | --- |
-| Hero, headings, numbers, shelf, terminal, team | Hand-assembled SVGs with CSS `@keyframes` inside. Raster art is embedded as base64 WebP, since images inside an `<img>`-SVG can't load anything external. |
-| Type | Goia and Goia Display, shaped with HarfBuzz and baked into outlines at build time. No font files ship with the repo. |
-| Client clips | Recorded by our deterministic Playwright + CDP recorder, cut into seamless loops (the tail cross-fades into the head), framed, and encoded to AVIF, with WebP and GIF fallbacks through `<picture>`. |
-| Light and dark | Every image has two versions, picked with `prefers-color-scheme`. |
-| Motion sensitivity | Every SVG honours `prefers-reduced-motion`. |
-
-The generators live in [`/scripts`](https://github.com/meui-creative/.github/tree/main/scripts). Take whatever is useful.
-
-</details>
-
-<sub>Meui Creative, pronounced <i>mý · jů · áj</i>. Liberec.</sub>
+<p align="center"><sub>Meui Creative, pronounced <i>mý · jů · áj</i>. Liberec.</sub></p>
