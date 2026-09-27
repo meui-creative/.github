@@ -13,8 +13,11 @@ cd "$(dirname "$0")/.."
 mkdir -p build/fonts build/stills
 [ -f build/fonts/JetBrainsMono.ttf ] || curl -sL -o build/fonts/JetBrainsMono.ttf \
   "https://github.com/JetBrains/JetBrainsMono/raw/master/fonts/variable/JetBrainsMono%5Bwght%5D.ttf"
-# Froggies has no recording; its shelf card is a still of the title screen.
-[ -f build/stills/froggies.png ] || echo "missing build/stills/froggies.png (2560x1600 screenshot of froggies.meui.cz)" >&2
+[ -f build/fonts/Nunito.ttf ] || curl -sL -o build/fonts/Nunito.ttf \
+  "https://github.com/google/fonts/raw/main/ofl/nunito/Nunito%5Bwght%5D.ttf"
+# Froggies has no product art on the website; its card is composed from game
+# screenshots in build/froggies/ (captured with scripts/capture-froggies.mjs).
+[ -d build/froggies ] && .venv/bin/python scripts/froggies_card.py
 
 PY=.venv/bin/python
 for s in hero stats products terminal team headings; do $PY scripts/$s.py; done

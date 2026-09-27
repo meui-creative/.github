@@ -19,7 +19,7 @@ P = SITE / "images/projects"
 PRODUCTS = [
     ("Fixuj & Mixuj", ["Drink deals from 10 chains,", "with a 14-day price forecast"], P / "FixujAMixuj.jpg", None),
     ("Bombotalk", ["A satirical daily, written", "every morning by an AI routine"], P / "Bombotalk.jpg", None),
-    ("Froggies", ["Leapfrog race for 2–4 players,", "bots and online play"], BUILD / "stills/froggies.png", "1180:1475:1100:125"),
+    ("Froggies", ["Leapfrog race for 2–4 players,", "bots and online play"], BUILD / "stills/froggies-card.jpg", None),
     ("Cue", ["Film pre-production: script,", "shot list, storyboard"], P / "Cue.jpg", None),
     ("^peak", ["Biohacking encyclopedia,", "out on the App Store"], P / "Peak.jpg", None),
     ("Stěhuj se", ["Where to move? 214 places", "scored from open data"], P / "StehujSe.jpg", None),
