@@ -74,7 +74,7 @@ def build(theme: str) -> str:
         css.append(appear(f"l{i}", t0 + 0.28 * i))
     k = len(FLEET) + 1
     r = 1.4 + k + 0.6
-    summary = [("60+", C["pink"]), (" client sites", C["cmd"]), ("  ·  ", C["dim"]), ("Hetzner + Coolify", C["cmd"]),
+    summary = [("60+", C["pink"]), (" client sites", C["cmd"]), ("  ·  ", C["dim"]), ("our own servers", C["cmd"]),
                ("  ·  ", C["dim"]), ("3", C["pink"]), (" npm packages", C["cmd"])]
     col, parts = 2, []
     for text, color in summary:

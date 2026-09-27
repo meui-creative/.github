@@ -30,7 +30,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/work-dark.svg">
-  <img alt="01, client work: recent launches" src="./assets/headings/work-light.svg" width="100%">
+  <img alt="Client work: recent launches" src="./assets/headings/work-light.svg" width="100%">
 </picture>
 
 <a href="https://vbezovemudoli.cz"><picture><source media="(prefers-color-scheme: dark)" type="image/avif" srcset="./assets/work/bezove-udoli-dark.avif"><source media="(prefers-color-scheme: dark)" type="image/webp" srcset="./assets/work/bezove-udoli-dark.webp"><source type="image/avif" srcset="./assets/work/bezove-udoli-light.avif"><source type="image/webp" srcset="./assets/work/bezove-udoli-light.webp"><img alt="V Bezovém Údolí: website for a boutique hotel in a 17th-century timbered cottage" src="./assets/work/bezove-udoli.gif" width="49%"></picture></a> <a href="https://events.3mag.eu"><picture><source media="(prefers-color-scheme: dark)" type="image/avif" srcset="./assets/work/3mag-events-dark.avif"><source media="(prefers-color-scheme: dark)" type="image/webp" srcset="./assets/work/3mag-events-dark.webp"><source type="image/avif" srcset="./assets/work/3mag-events-light.avif"><source type="image/webp" srcset="./assets/work/3mag-events-light.webp"><img alt="3mag Events: event platform for the Czech, German and Polish border region, with an interactive map" src="./assets/work/3mag-events.gif" width="49%"></picture></a>
@@ -39,25 +39,25 @@
 
 <a href="https://escapeboom.cz"><picture><source media="(prefers-color-scheme: dark)" type="image/avif" srcset="./assets/work/escapeboom-dark.avif"><source media="(prefers-color-scheme: dark)" type="image/webp" srcset="./assets/work/escapeboom-dark.webp"><source type="image/avif" srcset="./assets/work/escapeboom-light.avif"><source type="image/webp" srcset="./assets/work/escapeboom-light.webp"><img alt="Escape Boom: booking engine for five escape rooms and gift vouchers" src="./assets/work/escapeboom.gif" width="49%"></picture></a> <a href="https://bitez.cz"><picture><source media="(prefers-color-scheme: dark)" type="image/avif" srcset="./assets/work/bitez-dark.avif"><source media="(prefers-color-scheme: dark)" type="image/webp" srcset="./assets/work/bitez-dark.webp"><source type="image/avif" srcset="./assets/work/bitez-light.avif"><source type="image/webp" srcset="./assets/work/bitez-light.webp"><img alt="Bitez: restaurant marketing run from a phone app" src="./assets/work/bitez.gif" width="49%"></picture></a>
 
-<p align="center"><sub>Every clip above is recorded by our own frame-by-frame recorder (Playwright + CDP + ffmpeg), not a screen grab. More at <a href="https://meui-creative.com/projekty">meui-creative.com/projekty</a>.</sub></p>
+<p align="center"><sub>More at <a href="https://meui-creative.com/projekty">meui-creative.com/projekty</a></sub></p>
 
 <br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/numbers-dark.svg">
-  <img alt="02, by the numbers: the studio, counted" src="./assets/headings/numbers-light.svg" width="100%">
+  <img alt="By the numbers: the studio, counted" src="./assets/headings/numbers-light.svg" width="100%">
 </picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/numbers-dark.svg">
-  <img alt="16,231 commits on main branches since 2024. 118 repositories. 78 Payload CMS apps. 60+ sites live on our own Hetzner servers." src="./assets/numbers-light.svg" width="100%">
+  <img alt="16,231 commits on main branches since 2024. 118 repositories. 78 Payload CMS apps. 60+ sites live on our own servers." src="./assets/numbers-light.svg" width="100%">
 </picture>
 
 <br><br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/products-dark.svg">
-  <img alt="03, our own products: things we made because we wanted them" src="./assets/headings/products-light.svg" width="100%">
+  <img alt="Our own products: things we made because we wanted them" src="./assets/headings/products-light.svg" width="100%">
 </picture>
 
 <picture>
@@ -77,15 +77,15 @@ Half of what we build is for clients. The other half exists because we wanted it
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/stack-dark.svg">
-  <img alt="04, under the hood: we run our own stack" src="./assets/headings/stack-light.svg" width="100%">
+  <img alt="Under the hood: we run our own stack" src="./assets/headings/stack-light.svg" width="100%">
 </picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/terminal-dark.svg">
-  <img alt="Terminal output of 'meui status --stack'. Running services: studio, our agency OS with CRM, quotes, invoices, hosting and ads; plan, an issue tracker where AI agents pick up tickets; forecast, Chronos-2 price forecasts; bg, a background removal API; send, our mailing platform on AWS SES; meter, usage metering for every hosted site; analytics, self-hosted cookieless stats. 60+ client sites on Hetzner and Coolify, 3 npm packages." src="./assets/terminal-light.svg" width="100%">
+  <img alt="Terminal output of 'meui status --stack'. Running services: studio, our agency OS with CRM, quotes, invoices, hosting and ads; plan, an issue tracker where AI agents pick up tickets; forecast, Chronos-2 price forecasts; bg, a background removal API; send, our mailing platform on AWS SES; meter, usage metering for every hosted site; analytics, self-hosted cookieless stats. 60+ client sites on our own servers, 3 npm packages." src="./assets/terminal-light.svg" width="100%">
 </picture>
 
-**Default stack:** Next.js, TypeScript, Payload CMS, Tailwind and GSAP, on PostgreSQL or MongoDB, built with Bun. Mobile apps through Capacitor. Everything we host runs on our own Hetzner machines through Coolify, so clients own their code and nobody gets a surprise serverless bill.
+**Default stack:** Next.js, TypeScript, Payload CMS, Tailwind and GSAP, on PostgreSQL or MongoDB, built with Bun. Mobile apps through Capacitor. Everything we host runs on our own servers, so clients own their code and nobody gets a surprise serverless bill.
 
 We publish a few pieces as packages: `@meui-creative/cookies` (consent bar with Consent Mode v2), `@meui-creative/meter` and `@meui-creative/payload-redis-cache`.
 
@@ -93,7 +93,7 @@ We publish a few pieces as packages: `@meui-creative/cookies` (consent bar with 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/team-dark.svg">
-  <img alt="05, the people: who's behind it" src="./assets/headings/team-light.svg" width="100%">
+  <img alt="The people: who's behind it" src="./assets/headings/team-light.svg" width="100%">
 </picture>
 
 <picture>
@@ -141,4 +141,4 @@ The generators live in [`/scripts`](https://github.com/meui-creative/.github/tre
 
 </details>
 
-<sub>Meui Creative, pronounced <i>mý · jů · áj</i>. Operated by THERMONT CZ s.r.o., Liberec.</sub>
+<sub>Meui Creative, pronounced <i>mý · jů · áj</i>. Liberec.</sub>

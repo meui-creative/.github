@@ -12,11 +12,11 @@ from lib.text import text_path
 
 VW = 1600
 HEADINGS = {
-    "work": ("01", "Client work", "Recent launches", "#56745c", "development"),
-    "numbers": ("02", "By the numbers", "The studio, counted", "#a085d1", "design"),
-    "products": ("03", "Our own products", "Things we made because we wanted them", "#e8906d", "production"),
-    "stack": ("04", "Under the hood", "We run our own stack", "#5da9a9", "marketing"),
-    "team": ("05", "The people", "Who's behind it", "#56745c", "e"),
+    "work": ("Client work", "Recent launches", "#56745c", "development"),
+    "numbers": ("By the numbers", "The studio, counted", "#a085d1", "design"),
+    "products": ("Our own products", "Things we made because we wanted them", "#e8906d", "production"),
+    "stack": ("Under the hood", "We run our own stack", "#5da9a9", "marketing"),
+    "team": ("The people", "Who's behind it", "#56745c", "e"),
 }
 
 
@@ -28,10 +28,10 @@ def squiggle(x: float, y: float, w: float) -> str:
     return d
 
 
-def heading(theme: str, num: str, label: str, title: str, color: str, doodle: str) -> str:
+def heading(theme: str, label: str, title: str, color: str, doodle: str) -> str:
     t = THEMES[theme]
     VH = 190
-    ld, lw = text_path(f"{num}  —  {label.upper()}", 20, 52, "text", 70, 22, tracking=0.08)
+    ld, lw = text_path(label.upper(), 20, 52, "text", 70, 22, tracking=0.08)
     td, tw = text_path(title, 20, 136, "display", 76, 70)
     icon, iw = place(doodle, tw + 44, 72, 66, color, cls="wig")
     css = f'''
@@ -43,7 +43,7 @@ def heading(theme: str, num: str, label: str, title: str, color: str, doodle: st
 @keyframes rise{{from{{opacity:0;transform:translateY(24px)}}to{{opacity:1;transform:none}}}}
 {REDUCED_MOTION}'''
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {VW} {VH}" width="{VW}" height="{VH}">
-<title>{num} {label}: {title.replace("&", "&amp;")}</title>
+<title>{label}: {title.replace("&", "&amp;")}</title>
 <style>{css}</style>
 <path d="{ld}" fill="{color}"/>
 <g class="rise"><path d="{td}" fill="{t["ink"]}"/></g>

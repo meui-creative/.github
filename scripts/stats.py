@@ -14,7 +14,7 @@ STATS = [
     ("16231", "", "commits", "on main branches since 2024", "#56745c"),
     ("118", "", "repositories", "most of them client work", "#a085d1"),
     ("78", "", "Payload CMS apps", "Next.js + Payload 3, our default", "#e8906d"),
-    ("60", "+", "sites live", "on our own Hetzner servers", "#5da9a9"),
+    ("60", "+", "sites live", "on our own servers", "#5da9a9"),
 ]
 SIZE, WGHT = 104, 80
 DIGITS = "0123456789"
