@@ -1,114 +1,144 @@
-<!-- profile/README.md -->
-<!-- Fáze 0: funguje hned po commitu, nepotřebuje žádný backend.          -->
-<!-- Všechny obrázky leží v tomhle repu v /assets a načítají se přes raw. -->
-<!-- Relativní cesty v profile README nejsou spolehlivé, proto absolutní. -->
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/meui-creative/.github/main/assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/meui-creative/.github/main/assets/hero-light.svg">
-  <img alt="Meui Creative - kreativní studio z Liberce: development, design, produkce, marketing" src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/hero-light.svg" width="100%">
-</picture>
-
-Kreativní studio z Liberce. Stavíme weby, e-shopy a webové aplikace včetně designu, produkce a marketingu okolo nich. Čtyři řemesla pod jednou střechou, takže klient neřeší, kdo si co s kým předá.
-
-<!-- Klikací páska řemesel. Bez <table> wrapperu, jinak GitHub nakreslí   -->
-<!-- rámeček. Pevné pixely místo procent, protože bez kontejneru by       -->
-<!-- procenta počítala z plné šířky. Mezi <a> nesmí být newline ani       -->
-<!-- mezera, jinak vzniknou díry.                                        -->
-
-<a href="#development"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/tiles/development.svg" width="218" align="top" alt="Development"></a><a href="#design"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/tiles/design.svg" width="218" align="top" alt="Design"></a><a href="#produkce"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/tiles/produkce.svg" width="218" align="top" alt="Produkce"></a><a href="#marketing"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/tiles/marketing.svg" width="218" align="top" alt="Marketing"></a>
-
-## Klientské práce
-
-<a href="https://vbezovemudoli.cz"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/cards/v-bezovem-udoli.png" width="292" align="top" alt="V Bezovém Údolí - boutique hotel a restaurace"></a><a href="https://events.3mag.eu"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/cards/3mag-events.png" width="292" align="top" alt="3Mag Events - přeshraniční eventová platforma"></a><a href="https://artglass.cz"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/cards/artglass.png" width="292" align="top" alt="Artglass - skleněné lustry a umění"></a><a href="https://masher-store.cz"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/cards/masher.png" width="292" align="top" alt="Masher - e-shop s proteinovými kašemi"></a><a href="https://escapeboom.cz"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/cards/escape-boom.png" width="292" align="top" alt="Escape Boom - rezervační platforma pro únikové hry"></a>
-
-## Vlastní produkty
-
-<a href="https://meui-creative.com/projekty/peak"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/cards/peak.png" width="292" align="top" alt="Peak - databáze látek a aktivit"></a><a href="https://meui-creative.com/projekty/bombotalk"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/cards/bombotalk.png" width="292" align="top" alt="Bombotalk - AI satirický magazín"></a><a href="https://meui-creative.com/projekty/cue"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/cards/cue.png" width="292" align="top" alt="Cue - nástroj pro filmovou přípravu"></a><a href="https://meui-creative.com/projekty/fixuj-a-mixuj"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/cards/fixuj-a-mixuj.png" width="292" align="top" alt="Fixuj a Mixuj - aplikace"></a><a href="https://meui-creative.com/projekty/hodinkyprovas"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/cards/hodinky-pro-vas.png" width="292" align="top" alt="Hodinky Pro Vás - konfigurátor hodinek"></a><a href="https://meui-creative.com/projekty/stehuj-se"><img src="https://raw.githubusercontent.com/meui-creative/.github/main/assets/cards/stehuj-se.png" width="292" align="top" alt="Stěhuj se - služba"></a>
-
-Kompletní portfolio na [meui-creative.com/projekty](https://meui-creative.com/projekty).
-
-## Showreel
-
-<!-- Video nelze hotlinkovat z meui-creative.com. GitHub renderuje <video> -->
-<!-- jen z domény githubusercontent.com. Soubor se nahraje drag and dropem  -->
-<!-- do editoru README nebo do komentáře u issue, čímž vznikne URL          -->
-<!-- github.com/user-attachments/assets/<uuid>. Zdroje jsou na webu:        -->
-<!--   meui-creative.com/videos/references/artglass.mp4      (3,9 MB)       -->
-<!--   meui-creative.com/videos/references/bezove-udoli.mp4                 -->
-<!--   meui-creative.com/videos/references/3mag-events.mp4                  -->
-<!--   meui-creative.com/videos/references/masher.mp4                       -->
-<!--   meui-creative.com/videos/references/escapeboom.mp4                   -->
-<!-- Atribut poster GitHub strippne, první frame musí být rovnou ten pravý. -->
 <!--
-<video src="https://github.com/user-attachments/assets/SEM-VLOZ-UUID" controls muted playsinline width="100%"></video>
+  Hi, you're reading the source. That's the right instinct.
+  We're hiring developers who do this kind of thing for fun: hi@meui.cz
+
+  Everything below is generated by /scripts in this repo. Edit the scripts,
+  not the SVGs. Images use ./relative paths, which in profile/README.md
+  resolve to /profile, so nothing goes through GitHub's image proxy.
 -->
 
-## Development
+<a href="https://meui-creative.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+    <img alt="Meui Creative, a creative studio from Liberec. We build what we wish existed. Development, design, production, marketing." src="./assets/hero-light.svg" width="100%">
+  </picture>
+</a>
 
-Next.js, TypeScript, Payload CMS, Bun. PostgreSQL nebo MongoDB. Vlastní infrastruktura na Hetzneru přes Coolify, žádný vendor lock na serverless.
+<p align="center">
+  <b>A studio from Liberec, Czechia.</b> Websites, e-shops, apps, brands, video and campaigns,<br>
+  made by one team under one roof. No templates, no outsourcing, no hand-offs over the wall.
+</p>
 
-Prezentační weby, webové aplikace, e-shopy, mobilní appky, interní systémy a napojení na to, co klient už používá.
-
-## Design
-
-Brand identita, UI a UX, digitální i tisková grafika. Design vzniká vedle vývoje, ne v samostatném vakuu, které se pak někomu hodí přes zeď.
-
-## Produkce
-
-Video, foto, postprodukce. Spoty, produktové fotky, reels, firemní a instruktážní videa.
-
-## Marketing
-
-PPC, sociální sítě, obsah, kampaně. Měříme to, co ovlivňuje tržby, ne to, co se hezky reportuje.
-
-## Kde nás najdeš
-
-```geojson
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": { "name": "Meui Creative, Liberec", "marker-color": "#43755a", "marker-size": "large" },
-      "geometry": { "type": "Point", "coordinates": [15.0543, 50.7663] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "Praha", "marker-color": "#ffaaf1" },
-      "geometry": { "type": "Point", "coordinates": [14.4378, 50.0755] }
-    }
-  ]
-}
-```
-
-## Logo ve třech rozměrech
-
-Vyextrudovaný block logotyp. GitHub `.stl` soubory renderuje jako otáčecí 3D model, stačí ho otevřít.
-
-[assets/meui-block.stl](https://github.com/meui-creative/.github/blob/main/assets/meui-block.stl)
-
-<details>
-<summary><b>Jak je tohle README udělané</b></summary>
+<p align="center">
+  <a href="https://meui-creative.com"><kbd>&nbsp;meui-creative.com&nbsp;</kbd></a>&nbsp;
+  <a href="https://meui-creative.com/projekty"><kbd>&nbsp;portfolio&nbsp;</kbd></a>&nbsp;
+  <a href="mailto:hi@meui.cz"><kbd>&nbsp;hi@meui.cz&nbsp;</kbd></a>&nbsp;
+  <a href="https://meui-creative.com/press"><kbd>&nbsp;press kit&nbsp;</kbd></a>
+</p>
 
 <br>
 
-GitHub markdown sanitizuje skoro všechno. Žádný JavaScript, CSS, `<iframe>`, `<object>`, `<embed>` ani image mapy. Obrázky jdou přes anonymizující proxy `camo.githubusercontent.com`, takže návštěvníka nerozlišíš a stav je pro všechny stejný.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/work-dark.svg">
+  <img alt="01, client work: recent launches" src="./assets/headings/work-light.svg" width="100%">
+</picture>
 
-| Prvek | Technika |
+<a href="https://vbezovemudoli.cz"><picture><source media="(prefers-color-scheme: dark)" type="image/avif" srcset="./assets/work/bezove-udoli-dark.avif"><source media="(prefers-color-scheme: dark)" type="image/webp" srcset="./assets/work/bezove-udoli-dark.webp"><source type="image/avif" srcset="./assets/work/bezove-udoli-light.avif"><source type="image/webp" srcset="./assets/work/bezove-udoli-light.webp"><img alt="V Bezovém Údolí: website for a boutique hotel in a 17th-century timbered cottage" src="./assets/work/bezove-udoli.gif" width="49%"></picture></a> <a href="https://events.3mag.eu"><picture><source media="(prefers-color-scheme: dark)" type="image/avif" srcset="./assets/work/3mag-events-dark.avif"><source media="(prefers-color-scheme: dark)" type="image/webp" srcset="./assets/work/3mag-events-dark.webp"><source type="image/avif" srcset="./assets/work/3mag-events-light.avif"><source type="image/webp" srcset="./assets/work/3mag-events-light.webp"><img alt="3mag Events: event platform for the Czech, German and Polish border region, with an interactive map" src="./assets/work/3mag-events.gif" width="49%"></picture></a>
+
+<a href="https://artglass.cz"><picture><source media="(prefers-color-scheme: dark)" type="image/avif" srcset="./assets/work/artglass-dark.avif"><source media="(prefers-color-scheme: dark)" type="image/webp" srcset="./assets/work/artglass-dark.webp"><source type="image/avif" srcset="./assets/work/artglass-light.avif"><source type="image/webp" srcset="./assets/work/artglass-light.webp"><img alt="Artglass: website for a maker of hand-made crystal chandeliers" src="./assets/work/artglass.gif" width="49%"></picture></a> <a href="https://masher-store.cz"><picture><source media="(prefers-color-scheme: dark)" type="image/avif" srcset="./assets/work/masher-dark.avif"><source media="(prefers-color-scheme: dark)" type="image/webp" srcset="./assets/work/masher-dark.webp"><source type="image/avif" srcset="./assets/work/masher-light.avif"><source type="image/webp" srcset="./assets/work/masher-light.webp"><img alt="Masher: protein porridge e-shop with a build-your-own box configurator" src="./assets/work/masher.gif" width="49%"></picture></a>
+
+<a href="https://escapeboom.cz"><picture><source media="(prefers-color-scheme: dark)" type="image/avif" srcset="./assets/work/escapeboom-dark.avif"><source media="(prefers-color-scheme: dark)" type="image/webp" srcset="./assets/work/escapeboom-dark.webp"><source type="image/avif" srcset="./assets/work/escapeboom-light.avif"><source type="image/webp" srcset="./assets/work/escapeboom-light.webp"><img alt="Escape Boom: booking engine for five escape rooms and gift vouchers" src="./assets/work/escapeboom.gif" width="49%"></picture></a> <a href="https://bitez.cz"><picture><source media="(prefers-color-scheme: dark)" type="image/avif" srcset="./assets/work/bitez-dark.avif"><source media="(prefers-color-scheme: dark)" type="image/webp" srcset="./assets/work/bitez-dark.webp"><source type="image/avif" srcset="./assets/work/bitez-light.avif"><source type="image/webp" srcset="./assets/work/bitez-light.webp"><img alt="Bitez: restaurant marketing run from a phone app" src="./assets/work/bitez.gif" width="49%"></picture></a>
+
+<p align="center"><sub>Every clip above is recorded by our own frame-by-frame recorder (Playwright + CDP + ffmpeg), not a screen grab. More at <a href="https://meui-creative.com/projekty">meui-creative.com/projekty</a>.</sub></p>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/numbers-dark.svg">
+  <img alt="02, by the numbers: the studio, counted" src="./assets/headings/numbers-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/numbers-dark.svg">
+  <img alt="16,231 commits on main branches since 2024. 118 repositories. 78 Payload CMS apps. 60+ sites live on our own Hetzner servers." src="./assets/numbers-light.svg" width="100%">
+</picture>
+
+<br><br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/products-dark.svg">
+  <img alt="03, our own products: things we made because we wanted them" src="./assets/headings/products-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/products-dark.svg">
+  <img alt="A scrolling shelf of our own products: Fixuj & Mixuj, Bombotalk, Froggies, Cue, ^peak, Stěhuj se, Hodinky Pro Vás and AAC" src="./assets/products-light.svg" width="100%">
+</picture>
+
+Half of what we build is for clients. The other half exists because we wanted it to.
+
+- **[Fixuj & Mixuj](https://fixujamixuj.cz)**: drink deals from ten Czech chains, scraped three times a day, with a 14-day price forecast from a Chronos-2 model. Web plus iOS and Android.
+- **[Bombotalk](https://bombotalk.cz)**: a satirical daily. Every morning a Claude Code routine writes the issue through the site's own MCP server, and a risk gate decides what gets published.
+- **[Froggies](https://froggies.meui.cz)**: a leapfrog race around a lake for 2–4 players. PixiJS, bots, online rooms, and a streamed soundtrack.
+- **[^peak](https://peak.meui.cz)**: an evidence-based biohacking encyclopedia, on the App Store.
+- **[Cue](https://cue.meui.cz)**, **[Hodinky Pro Vás](https://hodinkyprovas.cz)**, **Stěhuj se** and **[AAC](https://anonymous-alcoholic-club.com)**: film pre-production, a watch configurator, an open-data map of where to move (a hackathon build), and our own streetwear label.
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/stack-dark.svg">
+  <img alt="04, under the hood: we run our own stack" src="./assets/headings/stack-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/terminal-dark.svg">
+  <img alt="Terminal output of 'meui status --stack'. Running services: studio, our agency OS with CRM, quotes, invoices, hosting and ads; plan, an issue tracker where AI agents pick up tickets; forecast, Chronos-2 price forecasts; bg, a background removal API; send, our mailing platform on AWS SES; meter, usage metering for every hosted site; analytics, self-hosted cookieless stats. 60+ client sites on Hetzner and Coolify, 3 npm packages." src="./assets/terminal-light.svg" width="100%">
+</picture>
+
+**Default stack:** Next.js, TypeScript, Payload CMS, Tailwind and GSAP, on PostgreSQL or MongoDB, built with Bun. Mobile apps through Capacitor. Everything we host runs on our own Hetzner machines through Coolify, so clients own their code and nobody gets a surprise serverless bill.
+
+We publish a few pieces as packages: `@meui-creative/cookies` (consent bar with Consent Mode v2), `@meui-creative/meter` and `@meui-creative/payload-redis-cache`.
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/team-dark.svg">
+  <img alt="05, the people: who's behind it" src="./assets/headings/team-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/team-dark.svg">
+  <img alt="The team as polaroids on a string: Marián, Creative Lead; Matěj, Lead Developer; Adam, Art Director; Filip, Project Engineer; Radek, Visual Content; Sarah, Design Creator; and Chiko the dog, Head of Morale" src="./assets/team-light.svg" width="100%">
+</picture>
+
+It started in 2021 as two friends from Liberec freelancing on either side of the same project, one in design, one in code. No business plan, no investor. The studio became official in 2024 and has been growing since.
+
+> [!TIP]
+> **We're hiring.** Frontend or full-stack developers who like Next.js, TypeScript and GSAP, and a social media specialist. Part-time or contract. [See the roles](https://meui-creative.com/o-nas) or just write to [hi@meui.cz](mailto:hi@meui.cz).
+
+<br>
+
+<a href="mailto:hi@meui.cz">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg">
+    <img alt="Our octopus mascot waving. Create what you wish existed." src="./assets/footer-light.svg" width="100%">
+  </picture>
+</a>
+
+<p align="center">
+  <a href="https://meui-creative.com">meui-creative.com</a> &nbsp;·&nbsp;
+  <a href="mailto:hi@meui.cz">hi@meui.cz</a> &nbsp;·&nbsp;
+  <a href="tel:+420777235939">+420 777 235 939</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/company/meui-creative">LinkedIn</a>
+</p>
+
+<details>
+<summary><b>How this README is made</b></summary>
+
+<br>
+
+GitHub strips scripts, styles, iframes and classes from READMEs, so everything that moves here is an image that animates itself.
+
+| Piece | How |
 | --- | --- |
-| Hero | Vlastní SVG s CSS animací uvnitř. Animace v SVG vloženém jako `<img>` běží, externí webfonty se ale nenačtou, takže text jede systémovým stackem nebo v outlinech. |
-| Dark a light varianta | `<picture>` s `prefers-color-scheme`. Jediný nativní prvek markdownu, který reaguje na uživatele. |
-| Klikací dlaždice | Slicing obrázku z devadesátek. Každá dlaždice je vlastní `<img>` v `<a>`, drží pohromadě přes `align="top"`. Pevné pixely, bez `<table>` wrapperu, protože ten GitHub orámuje. |
-| Mapa | Nativní ```geojson blok. GitHub renderuje geojson, topojson, mermaid a ASCII STL. |
-| 3D logo | ASCII STL vygenerované extruzí logotypu, renderované nativním prohlížečem GitHubu. |
+| Hero, headings, numbers, shelf, terminal, team | Hand-assembled SVGs with CSS `@keyframes` inside. Raster art is embedded as base64 WebP, since images inside an `<img>`-SVG can't load anything external. |
+| Type | Goia and Goia Display, shaped with HarfBuzz and baked into outlines at build time. No font files ship with the repo. |
+| Client clips | Recorded by our deterministic Playwright + CDP recorder, cut into seamless loops (the tail cross-fades into the head), framed, and encoded to AVIF, with WebP and GIF fallbacks through `<picture>`. |
+| Light and dark | Every image has two versions, picked with `prefers-color-scheme`. |
+| Motion sensitivity | Every SVG honours `prefers-reduced-motion`. |
 
-Zdrojové skripty jsou v `/docs`. Ber si, co se hodí.
+The generators live in [`/scripts`](https://github.com/meui-creative/.github/tree/main/scripts). Take whatever is useful.
 
 </details>
 
-## Kontakt
-
-[hi@meui.cz](mailto:hi@meui.cz) &nbsp;·&nbsp; [+420 777 235 939](tel:+420777235939) &nbsp;·&nbsp; [meui-creative.com](https://meui-creative.com) &nbsp;·&nbsp; [Instagram](https://instagram.com/meui_creative) &nbsp;·&nbsp; [Press kit](https://meui-creative.com/press)
-
-<sub>Meui Creative &nbsp;/miː juː aɪ/ &nbsp;·&nbsp; provozuje THERMONT CZ s.r.o.</sub>
+<sub>Meui Creative, pronounced <i>mý · jů · áj</i>. Operated by THERMONT CZ s.r.o., Liberec.</sub>
